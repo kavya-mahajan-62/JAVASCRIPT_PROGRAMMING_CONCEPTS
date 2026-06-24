@@ -27,27 +27,27 @@ console.log(x / y); //division operator it simply means how many times the secon
 console.log(x * y); //multiplication operator
 console.log(x % y); //modulo operator simply it means remainder operator it gives us the remainder of the division of two numbers
 console.log(x ** y); //exponentiation operator
-let a=10;
-let b=5;
-console.log(a++);//post increment operator it means first it will print the value of a and then it will increment the value of a by 1 ---10
-console.log(++a);//pre increment operator it means first it will increment the value of a by 1 and then it will print the value of a ---12
+a = 10;
+b = 5;
+console.log(a++); //post increment operator it means first it will print the value of a and then it will increment the value of a by 1 ---10
+console.log(++a); //pre increment operator it means first it will increment the value of a by 1 and then it will print the value of a ---12
 //pre and post increment operator are used to increment the value of a variable by 1 but the difference is that pre increment operator will increment the value of a variable before it is used in the expression and post increment operator will increment the value of a variable after it is used in the expression.
 //decrement operator is used to decrement the value of a variable by 1
-console.log(b--);//post decrement operator it means first it will print the value of b and then it will decrement the value of b by 1 ---5
-console.log(--b);//pre decrement operator it means first it will decrement the value of b by 1 and then it will print the value of b ---3
+console.log(b--); //post decrement operator it means first it will print the value of b and then it will decrement the value of b by 1 ---5
+console.log(--b); //pre decrement operator it means first it will decrement the value of b by 1 and then it will print the value of b ---3
 // tricky part for students to understand pre and post increment and decrement operator is that they are used in expressions and they have different precedence and associativity. Pre increment and decrement operator have higher precedence than post increment and decrement operator. Pre increment and decrement operator have right to left associativity and post increment and decrement operator have left to right associativity. this can be understood by the following example such as let a = 10; let b = 5; console.log(a++ + ++b); //it will print 16 because first it will print the value of a which is 10 and then it will increment the value of a by 1 and then it will increment the value of b by 1 and then it will add the values of a and b which is 11 + 6 = 17 but because of operator precedence and associativity it will print 16 because first it will print the value of a which is 10 and then it will increment the value of a by 1 and then it will increment the value of b by 1 and then it will add the values of a and b which is 11 + 6 = 17 but because of operator precedence and associativity it will print 16 because first it will print the value of a which is 10 and then it will increment the value of a by 1 and then it will increment the value of b by 1 and then it will add the values of a and b which is 11 + 6 = 17 but because of operator precedence and associativity it will print 16 because first it will print the value of a which is 10 and then it will increment the value of a by 1 and then it will increment the value of b by 1 and then it will add the values of a and b which is 11 + 6 = 17 but because of operator precedence and associativity it will print 16 because first it will print the value of a which is 10 and then it will increment the value of a by 1 and then it will increment the value of b by 1 and then it will add the values of a and b which is 11 + 6 = 17 but because of operator precedence and associativity it will print
 
 //Assignment Operators
 let c = 10;
-c += 5;//it means c = c + 5; it will add 5 to the value of c and assign the new value to c ans is 15 because 10 + 5 = 15
+c += 5; //it means c = c + 5; it will add 5 to the value of c and assign the new value to c ans is 15 because 10 + 5 = 15
 console.log(c);
-c -= 5;//it means c = c - 5; it will subtract 5 from the value of c and assign the new value to c ans is 10 because 15 - 5 = 10
+c -= 5; //it means c = c - 5; it will subtract 5 from the value of c and assign the new value to c ans is 10 because 15 - 5 = 10
 console.log(c);
-c *= 5;//it means c = c * 5; it will multiply the value of c by 5 and assign the new value to c ans is 50 because 10 * 5 = 50
+c *= 5; //it means c = c * 5; it will multiply the value of c by 5 and assign the new value to c ans is 50 because 10 * 5 = 50
 console.log(c);
-c /= 5;//it means c = c / 5; it will divide the value of c by 5 and assign the new value to c ans is 10 because 50 / 5 = 10
+c /= 5; //it means c = c / 5; it will divide the value of c by 5 and assign the new value to c ans is 10 because 50 / 5 = 10
 console.log(c);
-c %= 5;//it means c = c % 5; it will give the remainder of the division of c by 5 and assign the new value to c ans is 0 because 10/5 = 2 and the remainder is 0 
+c %= 5; //it means c = c % 5; it will give the remainder of the division of c by 5 and assign the new value to c ans is 0 because 10/5 = 2 and the remainder is 0
 console.log(c);
-c **= 5;//it means c = c ** 5; it will raise the value of c to the power of 5 and assign the new value to c---ans because 0 ** 5 = 0
+c **= 5; //it means c = c ** 5; it will raise the value of c to the power of 5 and assign the new value to c---ans because 0 ** 5 = 0
 console.log(c); //it means c = c ** 5; it will raise the value of c to the power of 5 and assign the new value to c---ans because 0 ** 5 = 0
