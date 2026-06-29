@@ -76,3 +76,9 @@ if (num) {
 } else {
   console.log("number is equal to zero");
 }
+let num2 = 10;
+if (num2) {
+  console.log("num is not equal to zero");
+} else {
+  console.log("number is equal to zero");
+}
