@@ -15,11 +15,11 @@ if (age > 20) {
   console.log("you are in your 20s"); //it will print because the condition is true because age is 23 which is greater than 20
  }
 
-// console.log("after my if statement");
+console.log("after my if statement");
 
  let firstName = "Kavya";
- if (firstName == "Kavya") {
-  console.log(`welcome ${firstName}`); //it will print because the condition is true because firstName is "Kavya" which is equal to "Kavya"
+ if (firstName == "Kavya"){
+  console.log(`welcome ${firstName}`);} //it will print because the condition is true because firstName is "Kavya" which is equal to "Kavya"
 
 // traffic light example
 let color = "red";
