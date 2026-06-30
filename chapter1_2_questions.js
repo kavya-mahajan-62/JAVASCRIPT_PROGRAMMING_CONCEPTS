@@ -108,6 +108,5 @@ else if (b > a && b > c) {
     console.log("B is Largest");
 }
 else {
-    console.log("C is Largest");
-}  
+    console.log("C is Largest");  
 */
